@@ -1,0 +1,139 @@
+﻿/*resetando elementos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*criar variaveis*/
+:root{
+    /*cores principais do site*/
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+/*corpo*/
+body { 
+    /*uso da variavel*/
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    /*border: 1px solid black;*/
+    display: flex; /*alinhar em linha*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-right: 5px;*/
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times, serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+/*trocar cor quando passa o mouse*/
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme principal*/
+.filme_principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(../IMG/chihiro2.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    /*padding: 15px; */
+}
+
+/*filme principal descrição*/
+.filme_principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme_principal .titulo{
+    margin-top: 15px;
+    /*margin-top: 15%;*/
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.botao{
+    background-color: rgba(0,0,0, .50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    /*margin: 5px;*/
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+    /*margin-right: 15px;*/
+}
+
+.filme_principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height:100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel_filmes{
+    margin-top: 5px
+}
+
+.video-lista {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(../IMG/kaichoumaid.png);
+    
+    width: 100%;
+    height: 350px;
+}
+
+.video-lista .titulo{
+    font-size: 30px;
+}
+
+.video .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.video {
+    flex-direction: row;
+    align-content: center;
+    margin-bottom: 30px;
+}

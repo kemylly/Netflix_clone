@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--link css-->
+    <link rel="stylesheet" href="CSS/Style.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
+    
+    <!--link owl css (jquery)-->
+    <link rel="stylesheet" href="OWL/owl.carousel.min.css" />
+    <link rel="stylesheet" href="OWL/owl.theme.default.min.css" />
+
+    <title>Netflix</title>
+
+</head>
+
+<body>
+    <!--navbar-->
+    <header>
+        <div class="container">
+            <h2 class="logo">KEMYFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Series</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentarios</a>
+            </nav>
+        </div>
+    </header>
+
+    <!--meio do site-->
+    <main>
+        <div class="filme_principal">
+            <div class="container">
+                <h3 class="titulo">A viagem de Chihiro</h3>
+
+                <p class="descricao">
+                    Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho.
+                    Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais
+                    começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los
+                </p>
+
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--carrosel basico com jquery-->
+    <div class="carrosel_filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="IMG/pokemon.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/bleach.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/flash.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/tartaruganija.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/lucifer.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/arqueiro.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/homenaranha.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/sobrenatural.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/vingadores.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/ligadajustica.jpg" alt="" srcset="" />
+            </div>
+        </div>
+    </div>
+
+    <!--descricao e video -->
+    <div class="video-lista">
+        <div class="conteudo">
+            <h3 class="titulo">Kaichō wa Maid-sama!</h3>
+
+            <p class="descricao">
+                Kaichō wa Maid-sama! é uma série de mangá shōjo escrita e ilustrada por Hiro Fujiwara. Foi publicada entre dezembro de 2005 
+                e setembro de 2013 na revista LaLa da editora Hakusensha. Uma adaptação em anime foi ao ar entre 1 de abril de 2010 e 23 de 
+                setembro de 2010 no Japão.
+            </p>
+        </div>
+
+        <div>
+            <iframe class="youtube" width="500" height="300"
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="carrosel_filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="IMG/ligadajustica.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/vingadores.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/sobrenatural.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/homenaranha.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/arqueiro.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/flash.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/tartaruganija.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/bleach.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/pokemon.jpg" alt="" srcset="" />
+            </div>
+            <div class="item">
+                <img class="box-filme" src="IMG/lucifer.jpg" alt="" srcset="" />
+            </div>
+        </div>
+    </div>
+
+    <!--link dos icones - font awesome-->
+    <script src="https://kit.fontawesome.com/233fe24897.js"></script>
+    <!--<script src="https://kit.fontawesome.com/233fe24897.js" crossorigin="anonymous"></script>-->
+    <!--link js owl (jquery)-->
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/owl.carousel.min.js"></script>
+
+    <!--javascript principal-->
+    <script src="javascript.js"></script>
+
+</body>
+</html>
